@@ -1,0 +1,6 @@
+year = int(input())
+century = year/100
+century1= int(century)
+century2=century1+1
+if century==century1: print(century1)
+else: print(century2)
