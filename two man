@@ -1,0 +1,6 @@
+shot1 = int(input())
+shot2 = int(input())
+banks = shot1+shot2-1
+notshut1 = banks-shot1
+notshut2 = banks-shot2
+print(notshut1, notshut2)
