@@ -1,0 +1,9 @@
+a = int(input())
+a4 = a % 10
+c = a % 100
+a3 = c // 10
+e = a % 1000
+a2 = e//100
+a1 = a//1000
+suma = a1+a2+a3+a4
+print(suma)
