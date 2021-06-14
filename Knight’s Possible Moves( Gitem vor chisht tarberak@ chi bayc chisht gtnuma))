@@ -1,0 +1,35 @@
+a = int(input())
+b = int(input())
+c = a-1
+d = a-2
+e = a+1
+x = a+2
+f = b-1
+g = b-2
+r = b+1
+j = b+2
+if 2<a<7and 2<b<7: print(c,j,',', c,g, ',',d,f,',',d,r, ',',e,g,',',e,j,',',x,f, ',',x,r)
+if a==1 and b==1: print(e,j,',',x,r)
+if a==1 and b==2: print(e,j,',',x,r,',',x,f)
+if a==1 and 2<b<7: print(e,g,',',e,j, ',',x,f, ',',x,r)
+if a==1 and b==7: print(x,f,',',e,g)
+if a==8 and b==8: print(e,g,',',x,f)
+if a==2 and b==1:print(c,j,',',e,j,',',x,e)
+if a==2 and b==2: print(c,j,',',e,j,',',x,f,',',x,r)
+if a==2 and 2<b<7: print(c,j,',', c,g, ',',e,g,',',e,j, ',',x,f, ',',x,r)
+if a==2 and b==7: print(c,g, ',',e,g,',',x,f, ',',x,r)
+if a==8 and b ==8:print(c,g,',',e,g,',',x,f)
+if 2<a<7 and b==1: print(c,j,',',d,r,',',e,j,',',x,r)
+if 2<a<7 and b==2: print(c,j,',',d,f,',',d,r, ',',e,j, ',',x,f, ',',x,r)
+if 2<a<7 and b==7: print( c,g, ',',d,f,',',d,r, ',',e,g,',',x,f, ',',x,r)
+if 2<a<7 and b==8: print(c,g, ',',d,f,',',e,g,',',x,f)
+if a==7 and b==1: print(x,r,',',e,j,',',x,j)
+if a==7 and b==2: print(c,j,',',d,f,',',d,r, ',',e,j, ',')
+if a==7 and 2<b<7: print(c,j,',', c,g, ',',d,f,',',d,r, ',',e,g,',',e,j,)
+if a==7 and b==7: print( c,g, ',',d,f,',',d,r, ',',e,g)
+if a==7 and b==8: print(d,f,',',c,g,',',e,g)
+if a==8 and b==1: print(d,r,',',c,j)
+if a==8 and b==2: print(d,r,',',d,f,',',c,j)
+if a==8 and 2<b<7: print( c,j,',', c,g, ',',d,f,',',d,r)
+if a==8 and b== 7: print(d,r,',',d,f,',',c,g)
+if a== 8 and b==8: print(c,g,',',d,j)
